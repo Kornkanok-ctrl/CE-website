@@ -1,8 +1,3 @@
-*{
-    font-family: 'Orbitron', sans-serif;
-}
-
-
 #password{
     width: 530px;
     text-align: center;
@@ -24,4 +19,29 @@
 
 body{
     background-image: blue ;
+}
+
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+.crown{
+    background-color: #203864;
+    display: flex;
+    align-content: center;
+    padding: 1vw;
+    position: fixed;
+    width:100vw;
+}
+#crownLogo{
+    display: flex;
+    color: #EC7D30;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+#crownpages{
+    display: flex;
+
 }
