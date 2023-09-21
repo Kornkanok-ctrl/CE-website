@@ -1,3 +1,21 @@
 *{
     font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+.crown{
+    background-color: #203864;
+    display: flex;
+    align-content: center;
+    padding: 2vw;
+}
+#crownLogo{
+    display: flex;
+    color: #EC7D30;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+#crownpages{
+
 }
