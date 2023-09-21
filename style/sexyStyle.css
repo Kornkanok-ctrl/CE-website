@@ -21,5 +21,6 @@
 }
 #crownpages{
     display: flex;
+    align-items: center;
 
 }
