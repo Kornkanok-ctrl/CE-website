@@ -1,8 +1,5 @@
 *{
     font-family: 'Orbitron', sans-serif;
-<<<<<<< Updated upstream
-}
-=======
     margin: 0;
     box-sizing: border-box;
 }
@@ -16,7 +13,7 @@
     height: 12%;
 }
 #crownLogo{
-    font-size: auto;
+    font-size: 30%;
     display: flex;
     color: #EC7D30;
     font-weight: bolder;
@@ -51,16 +48,19 @@
     padding-right: 17%;
 
     /* The image used */
-    background-image: url("../public/images/working.jpg");
-    background-position-y: 50%;
-    background-size:cover;
-    background-repeat: no-repeat;
+  background-image: url("../public/images/working.jpg");
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 >>>>>>> Stashed changes
