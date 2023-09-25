@@ -24,6 +24,7 @@ body{
 *{
     font-family: 'Orbitron', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 .crown{
     background-color: #203864;
@@ -31,19 +32,48 @@ body{
     align-content: center;
     padding: 1vw;
     position: fixed;
-    width:100vw;
+    width:100%;
 }
 #crownLogo{
-    font-size: 30%;
+    font-size: auto;
     display: flex;
     color: #EC7D30;
     font-weight: bolder;
     align-items: center;
     justify-content: space-around;
-    width: 20%;
+    width: auto;
+    padding-left: 3%;
 }
 #crownpages{
+    font-size: small;
+    color: #FFF;
+    padding-left: 40%;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 
 }
+#subpage{
+    font-size: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.bannerPic{
+    /* The image used */
+  background-image: url("../public/images/working.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
