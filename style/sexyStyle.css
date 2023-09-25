@@ -1,3 +1,66 @@
 *{
     font-family: 'Orbitron', sans-serif;
+<<<<<<< Updated upstream
 }
+=======
+    margin: 0;
+    box-sizing: border-box;
+}
+.crown{
+    background-color: #203864;
+    display: flex;
+    align-content: center;
+    padding: 1vw;
+    position: fixed;
+    width:100%;
+    height: 12%;
+}
+#crownLogo{
+    font-size: auto;
+    display: flex;
+    color: #EC7D30;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    padding-left: 3%;
+}
+#crownpages{
+    font-size: small;
+    color: #FFF;
+    padding-left: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#subpage{
+    font-size: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.headBanner{
+    font-weight: bolder;
+    font-size: 427%;
+    color: #FFF;
+
+    padding-top: 10%;
+    padding-left: 17%;
+    padding-right: 17%;
+
+    /* The image used */
+    background-image: url("../public/images/working.jpg");
+    background-position-y: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+>>>>>>> Stashed changes
