@@ -1,3 +1,26 @@
+#password{
+    width: 530px;
+    text-align: center;
+    flex-shrink: 0;
+    border-radius: 0px;
+    color: #617A55;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Itim;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148.023%;
+    background-color: #FFF;
+    position: absolute;
+    left: 80px;
+    top: 299px;
+    
+}
+
+body{
+    background-image: blue ;
+}
+
 *{
     font-family: 'Orbitron', sans-serif;
     margin: 0;
@@ -10,7 +33,6 @@
     padding: 1vw;
     position: fixed;
     width:100%;
-    height: 12%;
 }
 #crownLogo{
     font-size: auto;
@@ -23,9 +45,9 @@
     padding-left: 3%;
 }
 #crownpages{
-    font-size: small;
+    font-size: medium;
     color: #FFF;
-    padding-left: 40%;
+    padding-left: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,6 +72,7 @@
     /* The image used */
     background-image: url("../public/images/working.jpg");
     background-position-y: 50%;
+    background-position: fixed;
     background-size:cover;
     background-repeat: no-repeat;
 
@@ -58,4 +81,7 @@
     align-items: center;
     justify-content: space-around;
 
+}
+.announcement{
+    background-image: linear-gradient(#203864,#EC7D30);
 }
