@@ -31,8 +31,14 @@ html[lang="TH"] {font-family: Prompt !important;}
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    z-index: 0;
+}
+.relative{
+    position: sticky;
+    z-index: 621;
 }
 .crown{
+    z-index: 621;
     font-size: 1vw;
     background-color: #203864;
     display: flex;
@@ -40,7 +46,6 @@ html[lang="TH"] {font-family: Prompt !important;}
     padding: 1vw;
     padding-right: 5%;
     position: fixed;
-    position: absolute;
     width:100%;
 }
 #crownLogo{
@@ -92,7 +97,8 @@ html[lang="TH"] {font-family: Prompt !important;}
 
 }
 .announcement{
-    background-image: linear-gradient(#203864,#EC7D30);
+    background-image: linear-gradient(#2b4b86,#EC7D30);
+    height: 50vw;
 }
 
 
