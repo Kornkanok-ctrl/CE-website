@@ -30,7 +30,7 @@
     </div>
     <div class="headBanner">
       <img src="public/images/CE logo.svg" alt="public/images/CE logo.png" style="height: 20vmax;padding-bottom: 5vw;">
-      <div>
+      <div style="padding-left: 7%;">
         <h1>Department of <br> computer engineering</h1> <br>
         <h4>KMITL prince of chumpon campus</h4>
       </div>
@@ -38,13 +38,42 @@
     <div class="announcement">
       <div id="pointer"><h2 id="center">ประชาสัมพันธ์</h2></div>
       <div id="pointer:after"></div>
-      <div id="annPic"><img src="public/images/working.jpg" alt=""></div>
-      whaatttttttttttttttt
-      this is a tester sentence,baby
-      return tester
-      thest number 2
+      <div id="annPic">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="public/images/image-33.png" style="width:100%">
+            <div class="text">Caption Text</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="public/images/working-blur.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="public/images/working.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+      </div>
     </div>
-    <h1>GOOD MORNING!</h1>
-    morning
+    <div>
+      <h1>good evening</h1>
+    </div>
 </body>
+<script src="script/mainPage.js"></script>
 </html>
