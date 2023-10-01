@@ -7,19 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/sexyStyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <!--thai : prompt font-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="stylesheet" href="style/sexyStyle.css">
+    <!--bootstrap CDN-->
+    
 
     <title>Document</title>
 </head>
 <body>
-  <div class="relative">
     <div class="crown">
       <div id="crownLogo">
-        <img src="public/images/CE logo.svg" alt="public/images/CE logo.png" style="height: 4vmax;padding-right: 1vw;">
+        <img src="public/images/CE logo.svg" alt="public/images/CE logo.png" style="height: 3vmax;padding-right: 1vw;">
         <h1>KMITL CE</h1>
       </div>
       <div id="crownpages">
@@ -29,53 +31,39 @@
         <h4 id="subpage">circulum</h4>
       </div>
     </div>
-  </div>
     <div class="headBanner">
-      <img src="public/images/CE logo.svg" alt="public/images/CE logo.png" style="height: 20vmax;padding-bottom: 5vw;">
+      <img src="public/images/CE logo.svg" alt="public/images/CE logo.png" style="height: 17vmax;padding-bottom: 4vw;">
       <div style="padding-left: 7%;">
         <h1>Department of <br> computer engineering</h1> <br>
         <h4>KMITL prince of chumpon campus</h4>
       </div>
     </div>
     <div class="announcement">
-      <div id="pointer"><h2 id="center">ประชาสัมพันธ์</h2></div>
+      <div id="pointer">
+        <h2 id="center">ประชาสัมพันธ์</h2>
+      </div>
       <div id="pointer:after"></div>
-      <div id="annPic">
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="public/images/image-33.png" style="width:100%">
-            <div class="text">Caption Text</div>
-          </div>
-          
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="public/images/working-blur.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-          </div>
-          
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="public/images/working.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
-          
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-          
-          </div>
-          <br>
-          
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-          </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="public/images/image-33.png" class="slimg"/>
+        </div>
+        <div class="mySlides fade">
+          <img src="public/images/working-blur.jpg" class="slimg" />
+        </div>
+        <div class="mySlides fade">
+          <img src="public/images/working.jpg" class="slimg" />
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        <div style="padding-left: 50%;padding-top: 1vw;padding-bottom: -1vw;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <br>
       </div>
     </div>
-    <div>
-      <h1>good evening</h1>
-    </div>
+
 </body>
 <script src="script/mainPage.js"></script>
 </html>

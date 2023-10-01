@@ -33,13 +33,9 @@ html[lang="TH"] {font-family: Prompt !important;}
     box-sizing: border-box;
     z-index: 0;
 }
-.relative{
-    position: sticky;
-    z-index: 621;
-}
 .crown{
     z-index: 621;
-    font-size: 1vw;
+    font-size: 1.2vw;
     background-color: #203864;
     display: flex;
     align-content: center;
@@ -60,9 +56,9 @@ html[lang="TH"] {font-family: Prompt !important;}
     padding-left: 3%;
 }
 #crownpages{
-    font-size: medium;
     color: #FFF;
-    padding-left: 50%;
+    position: relative;
+    left: 55%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,6 +76,8 @@ html[lang="TH"] {font-family: Prompt !important;}
     color: #FFF;
 
     padding-top: 10%;
+    padding-bottom: 5%;
+
     padding-left: 17%;
     padding-right: 17%;
 
@@ -97,34 +95,41 @@ html[lang="TH"] {font-family: Prompt !important;}
 
 }
 .announcement{
-    background-image: linear-gradient(#2b4b86,#EC7D30);
-    height: 50vw;
+    background-image: linear-gradient(270deg,#2b4b86,#EC7D30);
 }
 
 
 #center{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    justify-self: center;
     align-self: center;
+    align-content: center;
 }
 #pointer {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
     font-size: 3vw;
     color: #FFF;
     width: 40%;
-    height: 6vw;
+    height: 6vmax;
     position: relative;
     background: #203864;
 }
 #pointer:before {
     content: "";
     position: absolute;
-    right: -35px;
+    right:-3vmax;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 35px solid #203864;
-    border-top: 3vw solid transparent;
-    border-bottom: 3vw solid transparent;
+    border-left: 3vmax solid #203864;
+    border-top: 3vmax solid transparent;
+    border-bottom: 3vmax solid transparent;
 }
 
 #annPic{
@@ -135,14 +140,25 @@ html[lang="TH"] {font-family: Prompt !important;}
     height: 1vw;
 }
 
-/* Slideshow container */
-.slideshow-container {
-    width: fit-content;
-    position: relative;
-    margin: auto;
+.mySlides {
+    display: none;
 }
-  /* Next & previous buttons */
-.prev, .next {
+.slimg {
+    vertical-align: middle;
+    width: 100%;
+    height: 40vw;
+} 
+ /* Slideshow container */
+
+.slideshow-container {
+    max-width: 100vw;
+    position: relative;
+}
+
+ /* Next & previous buttons */
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -155,21 +171,26 @@ html[lang="TH"] {font-family: Prompt !important;}
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-} 
-  /* Position the "next button" to the right */
+}
+
+ /* Position the "next button" to the right */
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-  /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+ /* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-  /* Caption text */
+ /* Caption text */
+
 .text {
-    color: #f2f2f2;
+    color: #ff0000;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -178,7 +199,8 @@ html[lang="TH"] {font-family: Prompt !important;}
     text-align: center;
 }
 
-  /* Number text (1/3 etc) */
+ /* Number text (1/3 etc) */
+
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -187,34 +209,45 @@ html[lang="TH"] {font-family: Prompt !important;}
     top: 0;
 }
 
-  /* The dots/bullets/indicators */
+ /* The dots/bullets/indicators */
+
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
+    height: 1vw;
+    width: 1vw;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-    background-color: #EC7D30;
+.active,
+.dot:hover {
+    background-color: #2b4b86;
 }
 
-  /* Fading animation */
+ /* Fading animation */
+
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
 }
 
 @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-  /* On smaller screens, decrease text size */
+ /* On smaller screens, decrease text size */
+
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+    .prev,
+    .next,
+    .text {
+        font-size: 11px;
+    }
 }
