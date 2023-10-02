@@ -1,0 +1,172 @@
+@import url('https://fonts.google.com/specimen/Orbitron');
+* {
+    font-family: 'Orbitron' , sans-serif;
+    margin: 0;
+}
+.FRONT {
+    background: #203864;   
+    width: 1488px;
+    height: 101px;
+    color: #EC7D30;
+}
+.FRONT h1{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+.FRONT img{
+    position:absolute;
+    top: 5px;
+    left: 20px;
+}
+body{
+    background-color:#ffffff;
+    display:flex;
+    justify-content: center;
+    margin-top:0px;
+}
+.MENU{
+    position:absolute;
+    top: 25px;           /*25หาร10 = 2.5vw */
+    left: 850px;
+}
+.MENU ul{
+    background-color: #EC7D30;
+    display:flex;
+    padding: 0;
+    border-radius: 10px;
+}
+.MENU ul li{
+    padding: 15px 35px;
+    list-style:none;
+    border-radius: 10px;
+    
+}
+.MENU ul li a{
+    text-decoration:none;
+    font-family:'Orbitron' , sans-serif;
+    color: #151515;
+    font-weight:bold;
+    font-size:18px;
+    cursor:pointer
+    transition:.5s;
+    curson:pointer;
+}
+.MENU ul li:hover{
+    background-color:#151515;
+    transition:.5s;
+}
+.MENU ul li:hover a{
+    color:#ffffff;
+    transition:.5s;
+}
+.MENU ul:hover{
+    box-shadow:-5px 5px 15px #f1f1f1;
+    transition:.5s;
+}
+.UNDER {
+    position : absolute;
+    background: #203864;   
+    width: 1473px;
+    height: 160px;
+    top: 300%;
+}
+.image {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px; 
+}
+.LOGO img {
+    position:relative;
+    top:2px;
+    width: 100px;
+    height: 70px;
+    margin: 35px; 
+    left: 20px;
+}
+.LOGO h1 {
+    position: absolute;
+    top: 70%;
+    left: 14.50%;
+    font-size: 9px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.rectangle img {
+    position: absolute;
+    top:-1%;
+    width: 62px;
+    height: 75px;
+    left: 36.60%;
+}
+.UNDER .BLACK {
+    position : absolute;
+    background: #000000; 
+    width: 1473px;
+    height: 40px;
+    margin-top :130px;
+}
+.BLACK h1{
+    color:#ffffff;
+    padding: 12px;
+    text-align: center;
+    font-size: 13px; 
+    letter-spacing: 2px;
+}
+.vertical-line {
+    position: absolute;
+    z-index: 1;
+    width:5px;
+    border-left: 3px solid white;
+    height:75%;
+    top: 6px;
+    left:50%;
+}
+.GPS img {
+    position: absolute;
+    top:10px;
+    left:53%;
+    width: 30px;
+    height: 30px;
+}
+.facebook img {
+    position :absolute;
+    top:31%;
+    left:53%;
+    width: 30px;
+    height: 30px;
+}
+.Phone img {
+    position :absolute;
+    top:57%;
+    left:52.95%;
+    width: 35px;
+    height: 35px;
+}
+.GPS h1 {
+    position: absolute;
+    top: 17px;
+    left: 57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.facebook p {
+    position : absolute;
+    top: 57px;
+    left: 57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.Phone a {
+    position:absolute;
+    top: 95px;
+    left :57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
