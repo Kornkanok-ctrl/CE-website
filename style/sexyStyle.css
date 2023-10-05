@@ -44,7 +44,7 @@ html[lang="TH"] {font-family: Prompt !important;}
     padding-right: 5%;
     position: fixed;
     width:100%;
-    filter: drop-shadow(2px 2px 6px rgb(60, 51, 40));
+    filter: drop-shadow(4px 4px 8px rgb(118, 69, 14));
 }
 #crownLogo{
 
@@ -147,33 +147,68 @@ html[lang="TH"] {font-family: Prompt !important;}
 
 #center{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-self: center;
-    align-self: center;
-    align-content: center;
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left:20%;
 }
 #pointer {
     align-content: center;
     justify-content: center;
     align-items: center;
     justify-items: center;
+    vertical-align: middle;
 
     font-size: 3vw;
     color: #FFF;
-    width: 40%;
+    width: 50%;
     height: 6vmax;
     position: relative;
     background: #203864;
+    filter: drop-shadow(2px 2px 4px rgb(60, 51, 40));
+
+    z-index: 3;
+
 }
 #pointer:before {
     content: "";
     position: absolute;
-    right:-3vmax;
+    right:-2.97vmax;
     bottom: 0;
     width: 0;
     height: 0;
     border-left: 3vmax solid #203864;
+    border-top: 3vmax solid transparent;
+    border-bottom: 3vmax solid transparent;
+}
+#subpointer {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    vertical-align: middle;
+
+    font-size: 3vw;
+    color: #FFF;
+    width: 85%;
+    height: 6vmax;
+    position: relative;
+    background: #EC7D30;
+    filter: drop-shadow(2px 2px 4px rgb(60, 51, 40));
+    z-index: 2;
+
+}
+#subpointer:before {
+    content: "";
+    position: absolute;
+    right:-2.965vmax;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 3vmax solid #EC7D30;
     border-top: 3vmax solid transparent;
     border-bottom: 3vmax solid transparent;
 }
@@ -188,7 +223,7 @@ html[lang="TH"] {font-family: Prompt !important;}
     position: relative;
     width: 100%;
     height: 30vw;
-    filter: blur(4px);
+    filter: blur(5px);
 } 
 #slimg {
     display: flex;
