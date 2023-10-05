@@ -39,10 +39,12 @@ html[lang="TH"] {font-family: Prompt !important;}
     background-color: #203864;
     display: flex;
     align-content: center;
+    vertical-align: center;
     padding: 1vw;
     padding-right: 5%;
     position: fixed;
     width:100%;
+    filter: drop-shadow(2px 2px 6px rgb(60, 51, 40));
 }
 #crownLogo{
 
@@ -55,6 +57,50 @@ html[lang="TH"] {font-family: Prompt !important;}
     width: auto;
     padding-left: 3%;
 }
+
+/*may's menu code*/
+#MENU{
+    position: relative;
+    left: 40%;
+}
+#MENU ul{
+    background-color: #EC7D30;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    border-radius: 10px;
+}
+#MENU ul li{
+    padding: 0.7vw 2vw;
+    list-style:none;
+    border-radius: 10px;
+    
+}
+#MENU ul li a{
+    text-decoration:none;
+    font-family:'Orbitron' , sans-serif;
+    color: #151515;
+    font-weight:bold;
+    font-size:1vw;
+    cursor:pointer ;
+    transition:.5s;
+    cursor:pointer;
+}
+#MENU ul li:hover{
+    background-color:#151515;
+    transition:.5s;
+}
+#MENU ul li:hover a{
+    color:#ffffff;
+    transition:.5s;
+}
+#MENU ul:hover{
+    box-shadow:-5px 5px 15px #f1f1f1;
+    transition:.5s;
+}
+/*end of menu code*/
+
 #crownpages{
     color: #FFF;
     position: relative;
@@ -131,22 +177,27 @@ html[lang="TH"] {font-family: Prompt !important;}
     border-top: 3vmax solid transparent;
     border-bottom: 3vmax solid transparent;
 }
-
-#annPic{
-
-    justify-content: center;
-    align-self: center;
-    width: 60%;
-    height: 1vw;
-}
-
 .mySlides {
-    display: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
-.slimg {
+#slbgimg {
+    display: flex;
     vertical-align: middle;
+    position: relative;
     width: 100%;
-    height: 40vw;
+    height: 30vw;
+    filter: blur(4px);
+} 
+#slimg {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    height: 30vw;
+    left: 20%;
+    width: 60%;
+    z-index: 12;
 } 
  /* Slideshow container */
 
