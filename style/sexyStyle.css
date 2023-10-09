@@ -62,6 +62,8 @@ html[lang="TH"] {font-family: Prompt !important;}
 #MENU{
     position: relative;
     left: 40%;
+    filter : drop-shadow(-5px 5px 15px #0a0a0a);
+    
 }
 #MENU ul{
     background-color: #EC7D30;
@@ -89,15 +91,15 @@ html[lang="TH"] {font-family: Prompt !important;}
 }
 #MENU ul li:hover{
     background-color:#151515;
-    transition:.5s;
+    transition:.5s ease;
 }
 #MENU ul li:hover a{
     color:#ffffff;
-    transition:.5s;
+    transition:.5s ease;
 }
 #MENU ul:hover{
-    box-shadow:-5px 5px 15px #f1f1f1;
-    transition:.5s;
+    box-shadow:-5px 5px 1px #0a0a0a;
+    transition:.5s ease;
 }
 /*end of menu code*/
 
@@ -336,4 +338,18 @@ html[lang="TH"] {font-family: Prompt !important;}
     .text {
         font-size: 11px;
     }
+}
+
+.stuff{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#thumb{
+    border-radius: 10px;
+    width: 20%;
+    border:2px wheat;
+    max-height: 15svw;
 }
