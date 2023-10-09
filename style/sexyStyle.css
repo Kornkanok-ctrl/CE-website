@@ -33,6 +33,24 @@ html[lang="TH"] {font-family: Prompt !important;}
     box-sizing: border-box;
     z-index: 0;
 }
+h1{
+    font-size: 4vw;
+}
+h2{
+    font-size: 3.5vw;
+}
+h3{
+    font-size: 3vw;
+}
+h4{
+    font-size: 2.5vw;
+}
+h5{
+    font-size: 2vw;
+}
+h6{
+    font-size: 1.5vw;
+}
 .crown{
     z-index: 621;
     font-size: 1.2vw;
@@ -341,15 +359,25 @@ html[lang="TH"] {font-family: Prompt !important;}
 }
 
 .stuff{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+}
+#seperate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
 }
 #thumb{
+    width: 100%;
     border-radius: 10px;
-    width: 20%;
     border:2px wheat;
-    max-height: 15svw;
+    height: 10vw;
 }
