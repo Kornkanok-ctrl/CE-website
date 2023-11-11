@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     
     <link rel="stylesheet" href="style/sexyStyle.css">
-    <!--bootstrap CDN-->
+
     
     <link rel="shortcut icon" href="public/images/CE logo.svg" type="image/x-icon">
     <title>KMITL-PCC CE</title>
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="headBanner">
-      <img src="public/images/CE logo.svg" alt="public/images/CE logo.png" style="height: 17vmax;padding-bottom: 4vw;">
+      <img src="public/images/CE logo.svg" alt="public/images/CE logo.png" style="height: 17vw;padding-bottom: 4vw;">
       <div style="padding-left: 7%;">
         <h1>Department of <br> computer engineering</h1> <br>
         <h4>KMITL prince of chumpon campus</h4>
@@ -94,11 +94,20 @@
         <h5>กิจกรรมมมม</h6>
         <h6>Lorem ipsum Alea iacta est</h6>
       </div>
-      
-      
-
     </div>
-    <div></div>
+    <div class="announcement">
+      <h1>ปฏิทิณกิจกรรม</h1>   <br><br><br><br><br><br>
+    </div>
+    <div id="map">
+      <gmp-map center="10.724184036254883,99.375244140625" zoom="14" map-id="DEMO_MAP_ID">
+        <gmp-advanced-marker position="10.724184036254883,99.375244140625" title="My location">
+        </gmp-advanced-marker>
+      </gmp-map>
+    </div>
+    <div>what</div>
 </body>
 <script src="script/mainPage.js"></script>
+<!--js shenanigan script-->
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwyaEs7tUiw7GwPzowZZg8zuHBAF7jT_c&callback=console.debug&libraries=maps,marker&v=beta"></script>
+<!--map script-->
 </html>

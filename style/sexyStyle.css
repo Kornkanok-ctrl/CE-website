@@ -163,7 +163,13 @@ h6{
 .announcement{
     background-image: linear-gradient(270deg,#2b4b86,#EC7D30);
 }
-
+.schedule{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 10px;
+    justify-content: space-between;
+}
 
 #center{
     display: flex;
@@ -380,4 +386,8 @@ h6{
     border-radius: 10px;
     border:2px wheat;
     height: 10vw;
+}
+
+#map{
+    height:27vh;
 }
