@@ -458,8 +458,10 @@ h6{
     height:28vh;
 }
 .UNDER {
+    display: flex;
+    height: 10vw;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     background: #203864;   
 }
 .image {
@@ -483,7 +485,7 @@ h6{
 }
 .LOGOGRID h1 {
     text-align: center;
-    font-size: 9px;
+    font-size: 0.9vw;
     color:#ffffff;
 }
 .BLACK {
@@ -492,7 +494,7 @@ h6{
 }
 .BLACK h1{
     color:#ffffff;
-    padding: 12px;
+    padding: 1vw;
     text-align: center;
     font-size: 1.3vw; 
     letter-spacing: 0.2vw;
@@ -550,4 +552,17 @@ h6{
     font-size: 15px;
     color:#ffffff;
     letter-spacing: 2px;
+}
+.contact{
+    color: white;
+    align-items: center;
+    z-index: 3 ;
+    font-size: 1vw ;
+    display: grid;
+    grid-template-columns: 3vw 40vw;
+    grid-template-rows: 3vw 3vw 3vw;
+    column-gap: 0.5vw;
+}
+.contact img{
+    height: 2vw;
 }
