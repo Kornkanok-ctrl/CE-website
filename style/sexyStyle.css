@@ -92,12 +92,12 @@ h6{
     justify-content: center;
     align-content: center;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 #MENU ul li{
     padding: 0.7vw 2vw;
     list-style:none;
-    border-radius: 10px;
+    border-radius: 1vw;
     
 }
 #MENU ul li a{
@@ -384,9 +384,38 @@ h6{
 }
 #thumb{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1vw;
     border:2px wheat;
-    height: 10vw;
+    height: 12vw;
+}
+#thumbCover1{
+    width: 20vw;
+    border-radius: 1vw;
+    border:2px wheat;
+    opacity: 40%;
+    background: #002285 ;
+    height: 12vw;
+    position: absolute;
+    z-index: 2;
+}
+#thumbCover2{
+    width: 20vw;
+    border-radius: 1vw;
+    border:2px wheat;
+    opacity: 40%;
+    background: #EC7D30 ;
+    height: 12vw;
+    position: absolute;
+    z-index: 2;
+}
+.textcover{
+    line-height: 3vw;
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
+    position: absolute;
+    padding-top: 2vw;
+    z-index: 3;
 }
 .schedule{
     padding-left: 15vw;
@@ -419,7 +448,7 @@ h6{
     margin-left: 15vw;
     width: 10vw;
     background:#203864 ;
-    border-radius: 10px;
+    border-radius: 1vw;
     padding: 1vw;
     align-items: center;
     justify-content: center;
@@ -431,12 +460,21 @@ h6{
     margin-left: 15vw;
     width: 10vw;
     background:#ffffff ;
-    border-radius: 10px;
+    border-radius: 1vw;
     padding: 1vw;
     align-items: center;
     justify-content: center;
 }
 
+.orLine{
+    background-color: #EC7D30;
+    height: 2.5vw;
+    border: solid 1vw white;
+}
+.picBanner img{
+    width: 100%;
+    height: 40%;
+}
 .circu{
     text-align: center;
     align-items: center;
@@ -471,11 +509,10 @@ h6{
     margin: 10px; 
 }
 .LOGOGRID{
-    padding: 1vw;
     text-align: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 12vw 12vw 12vw 12vw 1vw;
+    grid-template-columns: 12vw 12vw 12vw 13vw 2vw;
     grid-template-rows: auto 1.2vw;
     row-gap: 0.3vw;
 }
@@ -500,13 +537,12 @@ h6{
     letter-spacing: 0.2vw;
 }
 .vertical-line {
-    z-index: 1;
-    width:0.5px;
-    border-left: 0.4vw solid white;
+    justify-self: center;
+    border-left: 0.5vw solid white;
     grid-column: 5;
     grid-row-start: 1;
     grid-row-end: 3;
-    height:95%;
+    height: 120%;
 }
 .GPS img {
     position: absolute;
