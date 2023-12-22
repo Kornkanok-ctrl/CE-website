@@ -24,7 +24,10 @@ body{
 html[lang="en-US"] {font-family: Orbitron !important;}
 html[lang="TH"] {font-family: Prompt !important;}
 
-
+#center{
+    align-items: center;
+    justify-content: center;
+}
 
 *{
     font-family: 'Orbitron','Prompt', sans-serif;
@@ -89,12 +92,12 @@ h6{
     justify-content: center;
     align-content: center;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 #MENU ul li{
     padding: 0.7vw 2vw;
     list-style:none;
-    border-radius: 10px;
+    border-radius: 1vw;
     
 }
 #MENU ul li a{
@@ -161,10 +164,14 @@ h6{
 
 }
 .announcement{
-    background-image: linear-gradient(270deg,#2b4b86,#EC7D30);
+    background-image: linear-gradient(270deg,#203864,#EC7D30);
 }
-
-
+.announcement-vert{
+    background-image: linear-gradient(180deg,#203864,#EC7D30);
+}
+.announcement-vert-back{
+    background-image: linear-gradient(0deg, #203864,#EC7D30);
+}
 #center{
     display: flex;
     position: absolute;
@@ -185,7 +192,7 @@ h6{
     font-size: 3vw;
     color: #FFF;
     width: 50%;
-    height: 6vmax;
+    height: 6vw;
     position: relative;
     background: #203864;
     filter: drop-shadow(2px 2px 4px rgb(60, 51, 40));
@@ -196,13 +203,13 @@ h6{
 #pointer:before {
     content: "";
     position: absolute;
-    right:-2.97vmax;
+    right:-2.97vw;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 3vmax solid #203864;
-    border-top: 3vmax solid transparent;
-    border-bottom: 3vmax solid transparent;
+    border-left: 3vw solid #203864;
+    border-top: 3vw solid transparent;
+    border-bottom: 3vw solid transparent;
 }
 #subpointer {
     align-content: center;
@@ -214,7 +221,7 @@ h6{
     font-size: 3vw;
     color: #FFF;
     width: 85%;
-    height: 6vmax;
+    height: 6vw;
     position: relative;
     background: #EC7D30;
     filter: drop-shadow(2px 2px 4px rgb(60, 51, 40));
@@ -224,13 +231,13 @@ h6{
 #subpointer:before {
     content: "";
     position: absolute;
-    right:-2.965vmax;
+    right:-2.965vw;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 3vmax solid #EC7D30;
-    border-top: 3vmax solid transparent;
-    border-bottom: 3vmax solid transparent;
+    border-left: 3vw solid #EC7D30;
+    border-top: 3vw solid transparent;
+    border-bottom: 3vw solid transparent;
 }
 .mySlides {
     display: flex;
@@ -329,7 +336,7 @@ h6{
 
 .active,
 .dot:hover {
-    background-color: #2b4b86;
+    background-color: #203864;
 }
 
  /* Fading animation */
@@ -377,7 +384,221 @@ h6{
 }
 #thumb{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1vw;
     border:2px wheat;
+    height: 12vw;
+}
+#thumbCover1{
+    width: 20vw;
+    border-radius: 1vw;
+    border:2px wheat;
+    opacity: 40%;
+    background: #002285 ;
+    height: 12vw;
+    position: absolute;
+    z-index: 2;
+}
+#thumbCover2{
+    width: 20vw;
+    border-radius: 1vw;
+    border:2px wheat;
+    opacity: 40%;
+    background: #EC7D30 ;
+    height: 12vw;
+    position: absolute;
+    z-index: 2;
+}
+.textcover{
+    line-height: 3vw;
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
+    position: absolute;
+    padding-top: 2vw;
+    z-index: 3;
+}
+.schedule{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 10vw auto;
+    grid-template-rows: 10vw 10vw 10vw;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.circle{
+    grid-column: 1;
+    border: solid black 0.5vw;
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#calen{
+    width: 5vw;
+    height: 5vw;
+}
+.seeAll{ 
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 15vw;
+    width: 10vw;
+    background:#203864 ;
+    border-radius: 1vw;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+.seeAllOr{ 
+    text-align: center;
+    color: #EC7D30;
+    font-size: 1.5vw;
+    margin-left: 15vw;
+    width: 10vw;
+    background:#ffffff ;
+    border-radius: 1vw;
+    padding: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.orLine{
+    background-color: #EC7D30;
+    height: 2.5vw;
+    border: solid 1vw white;
+}
+.picBanner img{
+    width: 100%;
+    height: 40%;
+}
+.circu{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 60vw 20vw;
+    padding:1vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+.whiteTopic{
+    color: white;
+    padding: 1vw;
+    padding-left: 1.5vw;
+}
+#map{
+    height:28vh;
+}
+.UNDER {
+    display: flex;
     height: 10vw;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #203864;   
+}
+.image {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px; 
+}
+.LOGOGRID{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 12vw 12vw 12vw 13vw 2vw;
+    grid-template-rows: auto 1.2vw;
+    row-gap: 0.3vw;
+}
+.LOGOGRID img {
+    justify-self: center;
+    height: 5vw;
+}
+.LOGOGRID h1 {
+    text-align: center;
+    font-size: 0.9vw;
+    color:#ffffff;
+}
+.BLACK {
+    background: #000000; 
+    text-align: center;
+}
+.BLACK h1{
+    color:#ffffff;
+    padding: 1vw;
+    text-align: center;
+    font-size: 1.3vw; 
+    letter-spacing: 0.2vw;
+}
+.vertical-line {
+    justify-self: center;
+    border-left: 0.5vw solid white;
+    grid-column: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 120%;
+}
+.GPS img {
+    position: absolute;
+    top:10px;
+    left:53%;
+    width: 30px;
+    height: 30px;
+}
+.facebook img {
+    position :absolute;
+    top:31%;
+    left:53%;
+    width: 30px;
+    height: 30px;
+}
+.Phone img {
+    position :relative;
+    bottom: 3vw;
+    left:52.95%;
+    width: 35px;
+    height: 35px;
+}
+.GPS h1 {
+    position: absolute;
+    top: 17px;
+    left: 57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.facebook p {
+    position : absolute; 
+    top: 57px;
+    left: 57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.Phone a {
+    position:relative;
+    bottom: 3vw;
+    left :57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.contact{
+    color: white;
+    align-items: center;
+    z-index: 3 ;
+    font-size: 1vw ;
+    display: grid;
+    grid-template-columns: 3vw 40vw;
+    grid-template-rows: 3vw 3vw 3vw;
+    column-gap: 0.5vw;
+}
+.contact img{
+    height: 2vw;
 }
