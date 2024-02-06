@@ -1,0 +1,210 @@
+@import url('https://fonts.google.com/specimen/Orbitron');
+
+*{
+    font-family: 'Orbitron' , sans-serif;
+    margin: 0;
+}
+
+
+.crown{
+    z-index: 621;
+    font-size: 1.2vw;
+    background-color: #203864;
+    display: flex;
+    align-content: center;
+    vertical-align: center;
+    padding: 1vw;
+    padding-right: 5%; 
+    position: fixed;
+    width:100%;
+    /* filter: drop-shadow(4px 4px 8px rgb(118, 69, 14)); */
+}
+#crownLogo{
+
+    display: flex;
+    flex-direction: row;
+    color: #EC7D30;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    padding-left: 3%;
+}
+
+
+#MENU{
+    position: relative;
+    left: 40%;
+    filter : drop-shadow(-5px 5px 15px #0a0a0a);
+
+}
+#MENU ul{
+    background-color: #EC7D30;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    border-radius: 10px;
+}
+#MENU ul li{
+    padding: 0.7vw 2vw;
+    list-style:none;
+    border-radius: 10px;
+
+}
+#MENU ul li a{
+    text-decoration:none;
+    font-family:'Orbitron' , sans-serif;
+    color: #151515;
+    font-weight:bold;
+    font-size:1vw;
+    cursor:pointer ;
+    transition:.5s;
+    cursor:pointer;
+}
+#MENU ul li:hover{
+    background-color:#151515;
+    transition:.5s ease;
+}
+#MENU ul li:hover a{
+    color:#ffffff;
+    transition:.5s ease;
+}
+#MENU ul:hover{
+    box-shadow:-5px 5px 1px #0a0a0a;
+    transition:.5s ease;
+}
+
+#crownpages{
+    color: #FFF;
+    position: relative;
+    left: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#subpage{
+    font-size: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.over{
+    position: relative;
+    top: -6vw;
+    overflow: hidden;
+}
+.UNDER {
+    display: flex;
+    height: 10vw;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #203864;
+
+}
+.image {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px; 
+}
+.LOGOGRID{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 12vw 12vw 12vw 13vw 2vw;
+    grid-template-rows: auto 1.2vw;
+    row-gap: 0.3vw;
+}
+.LOGOGRID img {
+    justify-self: center;
+    height: 5vw;
+}
+.LOGOGRID h1 {
+    text-align: center;
+    font-size: 0.9vw;
+    color:#ffffff;
+    position: relative;
+    left: 300%;
+}
+.BLACK {
+    width: 100%;
+    background: #000000; 
+    text-align: center;
+
+}
+.BLACK h1{
+    color:#ffffff;
+    padding: 1vw;
+    text-align: center;
+    font-size: 1.3vw; 
+    letter-spacing: 0.2vw;
+}
+.vertical-line {
+    justify-self: center;
+    border-left: 0.5vw solid white;
+    grid-column: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 120%;
+}
+.GPS img {
+    position: absolute;
+    top:10px;
+    left:53%;
+    width: 30px;
+    height: 30px;
+}
+.facebook img {
+    position :absolute;
+    top:31%;
+    left:53%;
+    width: 30px;
+    height: 30px;
+}
+.Phone img {
+    position :relative;
+    bottom: 3vw;
+    left:52.95%;
+    width: 35px;
+    height: 35px;
+}
+.GPS h1 {
+    position: absolute;
+    top: 17px;
+    left: 57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.facebook p {
+    position : absolute; 
+    top: 57px;
+    left: 57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.Phone a {
+    position:relative;
+    bottom: 3vw;
+    left :57%;
+    font-size: 15px;
+    color:#ffffff;
+    letter-spacing: 2px;
+}
+.contact{
+    color: white;
+    align-items: center;
+    z-index: 3 ;
+    font-size: 1vw ;
+    display: grid;
+    grid-template-columns: 3vw 40vw;
+    grid-template-rows: 3vw 3vw 3vw;
+    column-gap: 0.5vw;
+}
+.contact img{
+    height: 2vw;
+}
