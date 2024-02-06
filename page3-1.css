@@ -1,0 +1,172 @@
+.content{
+    padding-top:5vw ;
+    width: 100%;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:10vw;
+    background: url(public/images/ceactivities.svg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 7vw;
+    line-height: 104.023%; /* 72.816px */
+    letter-spacing: 0.3vw;
+}
+.top h1{
+    background: conic-gradient(from 268deg at 71.6% -11.74%, #203864 11.867692619562149deg, #FFF 305.8348059654236deg, #EC7D30 359.37023878097534deg, #FFF 359.50780391693115deg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5vw;
+    display: inline-block;
+}
+.act1{
+    position: relative;
+    width: 100%;
+    height: 30vw;
+    background: url(public/images/image-32.png), no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.act1 h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    padding-top: 15px;
+    line-height: 104.023%;
+    font-weight: 700;
+    letter-spacing: 4.8px;
+}
+.act1 p{
+    position: relative;
+    padding-top: 5vw;
+    padding-left: 20vw;
+    color: #4472C5;
+    text-align: center;
+    font-size: 2.1vw;
+    font-weight: 700;
+    line-height: 104.023%; /* 33.287px */
+    letter-spacing: 3.2px;
+}
+.act1 h2{
+    position: relative;
+    padding-top: 1vw;
+    padding-left: 20vw;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 104.023%; /* 33.287px */
+    letter-spacing: 2.2px;
+}
+.pic1{  
+        position: relative;
+        background: url(public/images/image-30.png), no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 20%;
+        height: 60%;
+        left: 7%;
+        bottom: 12vw;
+        transform: rotate(340deg);
+        overflow: hidden;
+        border-radius: 51% 49% 50% 50% / 30% 33% 67% 70%;
+}
+.act2{
+    position: relative;
+    width: 100%;
+    height: 25vw;
+    bottom: 5vw;
+    padding-bottom: 5vw;
+    background: url(public/images/image-33.png), no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0% 12%, 100.1% 0%, 100.1% 100.3%, 0% 86.5%);
+}
+.act2 p{
+    position: relative;
+    text-align: center;
+    padding-left: 10vw;
+    right:15% ;
+    padding-top: 10vw;
+    color: rgba(249, 134, 0, 1);
+    font-size: 2.1vw;
+    font-weight: 700;
+    line-height: 104.023%; /* 33.287px */
+    letter-spacing: 3.2px;
+}
+.act2 h2{
+    position: relative;
+    text-align: center;
+    right:10% ;
+    padding-top: 1vw;
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 104.023%; /* 33.287px */
+    letter-spacing: 2.2px;
+}
+
+.pic2{  
+    position: relative;
+    background: url(public/images/image-31.png), no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 80%;
+    left: 70vw;
+    z-index: 10;
+    bottom: 13vw;
+    transform: rotate(5deg);
+    overflow: hidden;
+    border-radius: 51% 49% 50% 50% / 30% 33% 67% 70%;
+}
+.act3{
+    position: relative;
+    width: 100%;
+    height: 25vw;
+    bottom: 10vw;
+    background: url(public/images/image-34.png), no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0% 0%, 100% 11.8%, 100.1% 90%, 0% 100.3%);
+}
+.act3 p{
+    position: relative;
+    padding-top: 8vw;
+    padding-left: 20vw;
+    color: #4472C5;
+    text-align: center;
+    font-size: 2.1vw;
+    font-weight: 700;
+    line-height: 104.023%; /* 33.287px */
+    letter-spacing: 3.2px;
+}
+.act3 h2{
+    position: relative;
+    padding-top: 1vw;
+    padding-left: 20vw;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    line-height: 104.023%; /* 33.287px */
+    letter-spacing: 2.2px;
+}
+.pic3{  
+    position: relative;
+    background: url(public/images/image-35.png), no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    height: 60%;
+    bottom: 9vw;
+    left: 7%;
+    transform: rotate(340deg);
+    border-radius: 51% 49% 50% 50% / 30% 33% 67% 70%;
+}
