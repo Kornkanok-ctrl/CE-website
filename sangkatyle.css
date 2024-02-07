@@ -49,43 +49,93 @@ body{
     justify-content: center;
     margin-top:0px;
 }
-.MENU {
-    top: 25px;
-    padding-right: 22px;
-    transition: 1s  ;
+.crown{
+    z-index: 621;
+    font-size: 1.2vw;
+    background-color: #203864;
+    display: flex;
+    align-content: center;
+    vertical-align: center;
+    padding: 1vw;
+    padding-right: 5%;
+    position: fixed;
+    width:100%;
+    filter: drop-shadow(4px 4px 8px rgb(118, 69, 14));
 }
-.MENU ul{
+#crownLogo{
+
+    display: flex;
+    flex-direction: row;
+    color: #EC7D30;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    padding-left: 3%;
+}
+
+/*may's menu code*/
+#MENU{
+    position: relative;
+    left: 40%;
+    filter : drop-shadow(-5px 5px 15px #0a0a0a);
+    justify-content: center;
+    align-self: center;
+    
+}
+#MENU ul{
     background-color: #EC7D30;
     display:flex;
+    justify-content: center;
+    align-content: center;
     padding: 0;
-    border-radius: 10px;
-    /* flex-direction: column; */
+    border-radius: 1vw;
 }
-.MENU ul li{
-    list-style: none;
-    padding: 15px 35px;
-    border-radius: 10px;
-    position: relative;
+#MENU ul li{
+    padding: 0.7vw 2vw;
+    list-style:none;
+    border-radius: 1vw;
+    
 }
-.MENU ul li a{
+#MENU ul li a{
+    text-decoration:none;
+    font-family:'Orbitron' , sans-serif;
     color: #151515;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight:bold;
+    font-size:1vw;
+    cursor:pointer ;
+    transition:.5s;
     cursor:pointer;
-    transition:.5s;
 }
-.MENU ul li:hover{
+#MENU ul li:hover{
     background-color:#151515;
-    transition:.5s;
+    transition:.5s ease;
 }
-.MENU ul li:hover a{
+#MENU ul li:hover a{
     color:#ffffff;
-    transition:.5s;
+    transition:.5s ease;
 }
-.MENU ul:hover{
-    box-shadow:-5px 5px 15px #f1f1f1;
-    transition:.5s;
+#MENU ul:hover{
+    box-shadow:-5px 5px 1px #0a0a0a;
+    transition:.5s ease;
+}
+/*end of menu code*/
+
+#crownpages{
+    color: #FFF;
+    position: relative;
+    left: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#subpage{
+    font-size: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+
 }
 .reccom{
     position: absolute;
@@ -93,7 +143,7 @@ body{
     text-align: center;
     display: flex;
     color: white;
-    margin-top: 101px;
+    margin-top: 5vw;
     height: 200px;
     width: 100%;
     background-position: center;

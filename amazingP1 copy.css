@@ -1,9 +1,12 @@
 @import url('https://fonts.google.com/specimen/Orbitron');
 
 *{
-    font-family: 'Orbitron' , sans-serif;
+    font-family: 'Orbitron','Prompt', sans-serif;
     margin: 0;
 }
+
+html[lang="en-US"] {font-family: Orbitron !important;}
+html[lang="TH"] {font-family: Prompt !important;}
 
 
 .crown{
@@ -14,10 +17,10 @@
     align-content: center;
     vertical-align: center;
     padding: 1vw;
-    padding-right: 5%; 
+    padding-right: 5%;
     position: fixed;
     width:100%;
-    /* filter: drop-shadow(4px 4px 8px rgb(118, 69, 14)); */
+    filter: drop-shadow(4px 4px 8px rgb(118, 69, 14));
 }
 #crownLogo{
 
@@ -31,12 +34,14 @@
     padding-left: 3%;
 }
 
-
+/*may's menu code*/
 #MENU{
     position: relative;
     left: 40%;
     filter : drop-shadow(-5px 5px 15px #0a0a0a);
-
+    justify-content: center;
+    align-self: center;
+    
 }
 #MENU ul{
     background-color: #EC7D30;
@@ -44,13 +49,13 @@
     justify-content: center;
     align-content: center;
     padding: 0;
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 #MENU ul li{
     padding: 0.7vw 2vw;
     list-style:none;
-    border-radius: 10px;
-
+    border-radius: 1vw;
+    
 }
 #MENU ul li a{
     text-decoration:none;
@@ -74,6 +79,7 @@
     box-shadow:-5px 5px 1px #0a0a0a;
     transition:.5s ease;
 }
+/*end of menu code*/
 
 #crownpages{
     color: #FFF;
