@@ -84,6 +84,8 @@ h6{
     position: relative;
     left: 40%;
     filter : drop-shadow(-5px 5px 15px #0a0a0a);
+    justify-content: center;
+    align-self: center;
     
 }
 #MENU ul{
