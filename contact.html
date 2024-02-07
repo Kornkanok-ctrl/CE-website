@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact Us</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!--english : orbitron font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <!--thai : prompt font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    </head>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">Circulum</a></li>
+                <li><a href="#">Activity</a></li>
+                <li><a href="#">Teacher</a></li>
+                <li><a href="#">Student</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="public/images/logo3.svg"><img src="public/images/KMITLCE.svg"></a></li>
+                <li class="hideOnMobile"><a href="#">Circulum</a></li>
+                <li class="hideOnMobile"><a href="#">Activity</a></li>
+                <li class="hideOnMobile"><a href="#">Teacher</a></li>
+                <li class="hideOnMobile"><a href="#">Student</a></li>
+                <li class="hideOnMobile"><a href="#">News</a></li>
+                <li class="hideOnMobile"><a href="#">Contact</a></li>
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'none';
+            }
+        </script>
+        <div class="info">
+            <div id="subset">
+                <h1>ที่อยู่</h1>
+                <hr>
+                <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</br> 
+                <br>วิทยาเขตชุมพรเขตรอุดมศักดิ์ จังหวัดชุมพร</br>
+                <br>17/1 หมู่6 ต.ชุมโค อ.ปะทิว จ.ชุมพร 86160</br>
+            </div>
+            <div id="subset">
+                <h1>ติดต่อเรา</h1>
+                <hr>
+                <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง วิทยาเขตชุมพร</br>
+                <br>email : pcc@kmitl.ac.th</br>
+                <br>ประชาสัมพันธ์ 077506410</br>
+                <br>งานทะเบียนนักศึกษา สมัครเข้าศึกษาต่อ 0830665331 โทรสาร 077506426</br>
+                <br>งานกิจการนักศึกษา 0937167862</br>
+                <br>ติดต่อคณะผู้บริหาร 0830665368</br>
+                <br>ผู้ประสานงานสาขาวิชา หลักสูตร (วิศวกรรมศาสตร์ทุกหลักสูตร) 0815974529, 0657302048</br>
+                <br>ศูนย์ประสานงานวิทยาเขตชุมพร ณ สจล. กรุงเทพฯ 023298159</br>
+            </div>
+        </div>
+        
+    </body>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcon">
+                <a href=""><img src="public/images/facebook.svg"></i></a>
+                <a href=""><img src="public/images/discord.svg"></i></a>
+                <a href=""><img src="public/images/logo1.svg"></i></a>
+                <a href=""><img src="public/images/logo2.svg"></i></a>
+            </div>
+        </div>
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15680.611691544107!2d99.37035171528315!3d10.722686030483434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ff458dae5cc463%3A0x6cf4c3f8871aa234!2sKing%20Mongkut&#39;s%20Institute%20of%20Technology%20Ladkrabang%20Prince%20of%20Chumphon%20Campus!5e0!3m2!1sen!2sth!4v1702681155192!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+</html>

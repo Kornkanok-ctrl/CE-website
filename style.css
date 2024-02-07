@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html[lang="en-US"] {font-family: Orbitron !important;}
+html[lang="TH"] {font-family: Prompt !important;}
+
+body{
+    min-height: 100vh;
+    background-image: url(img/contact\ us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Orbitron','Prompt', sans-serif;
+}
+nav{
+    background-color: #203864;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+nav ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 80px;
+}
+nav a{
+    height: 100%;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #EC7D30;
+}
+nav a:hover{
+    background-color: #e9dedbab;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+nav li:left{
+    margin-right: auto;
+}
+hr{
+    border-color: #EC7D30;
+    border-width: 0.3vw;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .hideOnMobile{
+        display: none;
+    }
+}
+@media (max-width: 200) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+#subset{
+    padding: 5vw;
+    font-weight: bold;
+}
+
+
+.container{
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    background-color: #203864;
+}
+.footerContainer{
+    width: 100%;
+    padding: 7vw 3vw 2vw;
+    justify-content: center;
+
+}
+.socialIcon{
+    display: flex;
+    justify-content: center;
+}
+.socialIcon a{
+    text-decoration: none;
+    padding: 1vw 1vw 1vw;
+    margin: 10px;
+    border-radius: 10%;
+}
