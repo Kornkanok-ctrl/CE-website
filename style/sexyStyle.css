@@ -84,7 +84,7 @@ h6{
     position: relative;
     left: 40%;
     filter : drop-shadow(-5px 5px 15px #0a0a0a);
-    justify-content: center;
+    justify-self: center;
     align-self: center;
     
 }
@@ -420,6 +420,12 @@ h6{
     height: 12vw;
     position: absolute;
     z-index: 2;
+}
+#thumbnail{
+    width: 100%;
+    border-radius: 1vw;
+    border:2px wheat;
+    height: 20vw;
 }
 .textcover{
     line-height: 3vw;
