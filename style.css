@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+h5{
+    font-size: 2vw;
+}
+a{
+    color: white;
+    letter-spacing: 0.05vw;
+    text-decoration:none
+}
 html[lang="en-US"] {font-family: Orbitron !important;}
 html[lang="TH"] {font-family: Prompt !important;}
 

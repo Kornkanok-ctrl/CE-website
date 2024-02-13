@@ -5,6 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    color: white;
+    letter-spacing: 0.05vw;
+    text-decoration:none
+}
+h5{
+    font-size: 2vw;
+}
     .bg {
         position: fixed;
         top: 0;

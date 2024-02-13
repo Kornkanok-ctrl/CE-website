@@ -6,6 +6,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+h5{
+  font-size: 2vw;
+}
+a{
+  color: white;
+  letter-spacing: 0.05vw;
+  text-decoration:none
+}
 .screen {
     background-color: #ffffff;
     display: flex;

@@ -3,7 +3,7 @@
     font-family: 'Orbitron','Prompt', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     z-index: 0;
 }
 h1{
@@ -23,6 +23,11 @@ h5{
 }
 h6{
     font-size: 1.5vw;
+}
+a{
+    color: white;
+    letter-spacing: 0.05vw;
+    text-decoration:none
 }
 .crown{
     z-index: 621;
@@ -52,7 +57,7 @@ h6{
 /*may's menu code*/
 #MENU{
     position: relative;
-    left: 40%;
+    left: 35%;
     filter : drop-shadow(-5px 5px 15px #0a0a0a);
     justify-content: center;
     align-self: center;

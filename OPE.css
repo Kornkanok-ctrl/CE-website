@@ -6,6 +6,15 @@
     box-sizing: border-box;
     background-repeat: no-repeat;
   height: auto;}
+
+  h5{
+    font-size: 2vw;
+  }
+  a{
+    color: white;
+    letter-spacing: 0.05vw;
+    text-decoration:none
+}
 .header{
       position: fixed;
       top: 0;

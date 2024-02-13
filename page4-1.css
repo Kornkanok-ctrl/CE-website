@@ -6,6 +6,14 @@
     background: #203864;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+h5{
+    font-size: 2vw;
+}
+a{
+    color: white;
+    letter-spacing: 0.05vw;
+    text-decoration:none
+}
 .content #T1{
     position: relative;
     bottom: 11.6vw;

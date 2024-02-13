@@ -8,7 +8,14 @@
 html[lang="en-US"] {font-family: Orbitron !important;}
 html[lang="TH"] {font-family: Prompt !important;}
 
-
+h5{
+    font-size: 2vw;
+}
+a{
+    color: white;
+    letter-spacing: 0.05vw;
+    text-decoration:none
+}
 .crown{
     z-index: 621;
     font-size: 1.2vw;
@@ -37,7 +44,7 @@ html[lang="TH"] {font-family: Prompt !important;}
 /*may's menu code*/
 #MENU{
     position: relative;
-    left: 40%;
+    left: 35%;
     filter : drop-shadow(-5px 5px 15px #0a0a0a);
     justify-content: center;
     align-self: center;

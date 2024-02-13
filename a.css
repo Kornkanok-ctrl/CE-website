@@ -3,6 +3,14 @@
     font-family: 'Orbitron' , sans-serif;
     margin: 0;
 }
+a{
+    color: white;
+    letter-spacing: 0.05vw;
+    text-decoration:none
+}
+h5{
+    font-size: 2vw;
+}
 .FRONT {
     background: #203864;   
     width: 1488px;

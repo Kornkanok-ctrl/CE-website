@@ -3,6 +3,14 @@
     font-family: 'Orbitron' , sans-serif;
     margin: 0;
 }
+h5{
+  font-size: 2vw;
+}
+a{
+  color: white;
+  letter-spacing: 0.05vw;
+  text-decoration:none
+}
 .screen {
     background-color: #ffffff;
     display: flex;
