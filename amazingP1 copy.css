@@ -40,6 +40,11 @@ a{
     width: auto;
     padding-left: 3%;
 }
+#crownLogo a{
+    color: #EC7D30;
+    display: flex;
+    align-items: center;
+}
 
 /*may's menu code*/
 #MENU{
