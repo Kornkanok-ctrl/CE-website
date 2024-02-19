@@ -57,8 +57,11 @@ h6{
 a{
     color: white;
     letter-spacing: 0.05vw;
-    text-decoration:none
+    text-decoration:none;
+    display: flex;
+    flex-direction: row;
 }
+
 .crown{
     z-index: 621;
     font-size: 1.2vw;
@@ -400,6 +403,17 @@ a{
     align-items: center;
     width: 20vw;
 }
+#seperate a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #385fa7;
+    mix-blend-mode: multiply;
+    border-radius: 1vw;
+}
+#seperate a img{
+    mix-blend-mode: multiply;
+}
 #thumb{
     width: 100%;
     border-radius: 1vw;
@@ -413,8 +427,7 @@ a{
     opacity: 40%;
     background: #002285 ;
     height: 12vw;
-    position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 #thumbCover2{
     width: 20vw;
@@ -482,16 +495,20 @@ a{
     color: #EC7D30;
     font-size: 1.5vw;
     margin-left: 10vw;
-    width: 10vw;
+    width: 13vw;
     background:#ffffff ;
     border-radius: 1vw;
     padding: 1vw;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 .seeAllOr a{ 
 
     color: #EC7D30;
+    display: flex;
+    flex-direction: row;
 
 }
 
